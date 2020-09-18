@@ -1,0 +1,10 @@
+Steps to add a file in github repo-
+
+1. git clone "repo url"
+2. add the new file to the clone repo folder
+3. git status (checking all the untracked files which we have kept in the cloned repo folder)
+4. git add "file name to be added"
+5. git add.* (adding multiple files)
+6. git commit -m "comment for the files you have added"
+7. git push (might ask your id and pass incase the authentication is not done)
+8. git status (no untracked files left)
