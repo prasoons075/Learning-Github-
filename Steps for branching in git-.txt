@@ -1,0 +1,31 @@
+Steps for branching in git-
+
+1. git branch branch_name
+2. git branch (checking number of branches are available and on which branch you are at currently. '*' tells the current branch)
+3. git checkout branch_name (choosing your branch)
+4. do your code changes in files
+5. git status
+6. git diff
+7. git add -A
+8. git commit -m "modified code for branch"
+
+After all this the code is only committed to your local branch_name branch.
+This has no effect on our local master branch and no effect on remote repo.
+
+9. git push -u origin branch_name (-u = associate local branch_name branch to remote branch_name branch. "origin" = name of remote repo)
+10. git branch -a (to see all branches)
+
+Merging a branch to master
+
+11. git checkout master
+12. git pull origin master
+13. git branch --merged
+14. git merge branch_name
+15. git push origin master
+
+Deleting a Branch. As now branch is no longer needed it should be deleted
+
+16. git branch --merged
+17. git branch -d branch_name
+18. git branch -a
+19. git push origin --delete branch_name
