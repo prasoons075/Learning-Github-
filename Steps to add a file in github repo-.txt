@@ -1,5 +1,10 @@
 Steps to add a file in github repo-
 
+Some step to show so that other people working with you are informed that you have commited the code -
+git config --global user.name "your name"
+git config --global user.email "your email"
+git config --list =(to know all the configurations)
+
 1. git clone "repo url"
 2. add the new file to the clone repo folder
 3. git status (checking all the untracked files which we have kept in the cloned repo folder)
